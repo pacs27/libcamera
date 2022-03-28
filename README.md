@@ -10,9 +10,10 @@ A node js library to access the libcamera API on the raspberry pi
 
 
 ```js
-import libCamera from "libcamera"
+import {libcamera} from "libcamera"
 
-libCamera.jpeg({config:{ output: 'test.jpg' }})
+
+libcamera.jpeg({config:{ output: 'test.jpg' }})
 .then((result)=> console.log(result))
 .catch((err)=>console.log(err))
 ```
@@ -27,17 +28,12 @@ $ npm install libcamera
 ### libcamera-jpeg
 
 ```js
-import libcamera from "libcamera-js"
+import {libcamera} from "libcamera"
 
-libCamera.jpeg({config:{ output: 'test.jpg' }})
+
+libcamera.jpeg({config:{ output: 'test.jpg' }})
 .then((result)=> console.log(result))
 .catch((err)=>console.log(err))
-
-const app = express()
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
-app.listen(3000)
 ```
 
 ## Errors
