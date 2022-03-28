@@ -15,5 +15,5 @@ const makeLibCamera = buildMakeLibCamera({
   rawCommands,
 });
 
-export const libcamera =  makeLibCamera()
-export default libcamera
+export const libcamera = makeLibCamera();
+export default libcamera;
