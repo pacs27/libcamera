@@ -11,6 +11,8 @@ A node js library to access the libcamera API on the raspberry pi
 
 ```js
 import {libcamera} from "libcamera"
+// For CommonJs modules:
+// const {libcamera} = require('libcamera') 
 
 
 libcamera.jpeg({config:{ output: 'test.jpg' }})
