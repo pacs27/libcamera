@@ -15,12 +15,6 @@ import libCamera from "libcamera"
 libCamera.jpeg({config:{ output: 'test.jpg' }})
 .then((result)=> console.log(result))
 .catch((err)=>console.log(err))
-
-const app = express()
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
-app.listen(3000)
 ```
 
 ## Installation
