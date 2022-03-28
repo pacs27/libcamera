@@ -1,4 +1,4 @@
-# LIBCAMERA-JS FOR RASPBERRY-PI
+# LIBCAMERA FOR RASPBERRY-PI
 
 A node js library to access the libcamera API on the raspberry pi
 
@@ -10,7 +10,7 @@ A node js library to access the libcamera API on the raspberry pi
 
 
 ```js
-import libcamera from "libcamera-js"
+import libCamera from "libcamera"
 
 libCamera.jpeg({config:{ output: 'test.jpg' }})
 .then((result)=> console.log(result))
@@ -26,7 +26,7 @@ app.listen(3000)
 ## Installation
 
 ```console
-$ npm install libcamera-js
+$ npm install libcamera
 ```
 ## Docs
 
