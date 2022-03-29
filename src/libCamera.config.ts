@@ -12,7 +12,6 @@ export const commonCommands: Commands = {
     'hflip', // Read out with horizontal mirror
     'vflip', // Read out with vertical flip
     'flush', // Flush output files immediately
-
   ],
   Options: [
     'camera', // Selects which camera to use <index>
