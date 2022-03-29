@@ -163,7 +163,7 @@ libcamera
 
 Each app has its on options avaliable. These options are:
 
-#### COMMON OPTIONS
+#### **COMMON OPTIONS**
 
 Common options are available in all 4 apps
 
@@ -214,11 +214,11 @@ Common options are available in all 4 apps
 - output: Output file name `<string>`
 - wrap: Wrap output file counter at `<number>`
 
-#### JPEG
+#### **JPEG**
 
 No additional options
 
-#### STILL
+#### **STILL**
 
 Has additional options that attempt to emulate the raspistill API.
 
@@ -241,7 +241,7 @@ Has additional options that attempt to emulate the raspistill API.
 - encoding: Set the still image codec `<string>` (jpg, png, bmp, rgb, yuv420)
 - latest: Make symbolic link to latest file saved `<string>`
 
-#### VID
+#### **VID**
 
 Has additional options.
 
@@ -265,7 +265,7 @@ Has additional options.
   - circular: Write the video recording into a circular buffer of the given `<size>`
   - frames: Record exactly this many frames `<number>`
   
-  #### RAW
+  #### **RAW**
 
 Has additional options.
 
