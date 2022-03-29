@@ -11,6 +11,8 @@ export const commonCommands: Commands = {
     'rawfull', // Force sensor to capture in full resolution mode
     'hflip', // Read out with horizontal mirror
     'vflip', // Read out with vertical flip
+    'flush', // Flush output files immediately
+
   ],
   Options: [
     'camera', // Selects which camera to use <index>
@@ -44,7 +46,6 @@ export const commonCommands: Commands = {
     'tuning-file', //	Specify the camera tuning to use <string>"
     'output', // Output file name <string>
     'wrap', // Wrap output file counter at <number>
-    'flush', // Flush output files immediately
   ],
 };
 
