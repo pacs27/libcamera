@@ -3,12 +3,8 @@
 A node js library to access the libcamera API on the raspberry pi
 
 ![npm](https://img.shields.io/npm/v/libcamera)
-![npm bundle size](https://img.shields.io/bundlephobia/min/libcamera)
 ![node-current](https://img.shields.io/node/v/libcamera)
 ![NPM](https://img.shields.io/npm/l/libcamera)
-![checks](https://badgen.net/github/checks/pacs27/libcamera)
-![](https://badgen.net/github/release/pacs27/libcamera)
-![last-commit](https://badgen.net/github/last-commit/pacs27/libcamera)
 
 
 ```js
