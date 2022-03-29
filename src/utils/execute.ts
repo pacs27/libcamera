@@ -24,10 +24,20 @@ export default function makeExecute({ exec }: { exec: any }): Execute {
           cmdCommand,
           options,
           (error: ExecException | null, stdout: string, stderr: string) => {
-            if (stderr || error) {
-              reject(stderr || error);
+         
+
+            if (error) {
+              if(stderr){
+                reject(stderr.trim());
+              }
+                reject(error);
+              }
+            if(stdout){
+              resolve(stdout.trim());
             }
-            resolve(stdout);
+            if(stderr){
+              resolve(stderr.trim());
+            }
           }
         );
       });
