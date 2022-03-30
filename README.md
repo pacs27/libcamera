@@ -1,6 +1,6 @@
 # LIBCAMERA FOR RASPBERRY-PI
 
-A node js library to access the libcamera API on the raspberry pi
+A Node-JS library to access the libcamera API on the Raspberry PI.
 
 ![npm](https://img.shields.io/npm/v/libcamera)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/libcamera)
