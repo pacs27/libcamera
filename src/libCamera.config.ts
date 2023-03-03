@@ -14,6 +14,7 @@ export const commonCommands: Commands = {
     'flush', // Flush output files immediately
   ],
   Options: [
+    'lens-position', // Set lens position <number>
     'camera', // Selects which camera to use <index>
     'config', // Read options from the given file <filename>
     'timeout', // Delay before application stops automatically <milliseconds>
